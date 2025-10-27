@@ -1,4 +1,4 @@
-header {
+#header {
     padding: 250px;
 }
 
@@ -15,9 +15,15 @@ section h3 {
 }
 
 header section button{
-    color: black;
+    color: white;
+    background-color: var(--bg-color);
+    border: solid white;
     margin-block: 20px;
     padding: 15px 40px;
+}
+
+button:hover {
+    background-color: var(--a-color);
 }
 
 
@@ -27,7 +33,7 @@ header section button{
     justify-content: space-between;
 }
 
-#col-b img{
+#notlogo {
     width: 600px;
     height: auto;
     object-fit: cover;

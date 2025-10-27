@@ -23,12 +23,16 @@ nav img{
 
 nav img:hover {
     border-radius: 20px;
+    color: palevioletred;
     background-color: var(--bg-color);
 }
 
 #nav {
     background-color: var(--menu-color);
-    
+}
+
+#logo {
+    color: var(--c-color);
 }
 
 ul a:hover {

@@ -3,19 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 :root {
     --bg-color: #000000;
-    --menu-color: rgb(43, 42, 42);
-    --text-color-primary: rgb(43, 42, 42); 
-    --text-color-seconday: #6C6C6C;
+    --menu-color: #2b2a2a;
+    --a-color: #3C3C3C;
+    --b-color: #5E5E5E;
+    --c-color: #A2A2A2;
+    --d-color: #C3C3C3;
     --font-family: "DM Sans", sans-serif;
-    --text-lg: bold 32px/125% var(--font-family);
-    --text: 16px/1.5 var(--font-family);
-    --text-md: 14px/170% var(--font-family);
-    --text-sm: 12px/170% var(--font-family);
 }
 
 .container {

@@ -1,0 +1,19 @@
+#about {
+    background-color: var(--b-color);
+    padding: 250px;
+}
+
+#about img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    padding: 40px;
+}
+
+#wrapper-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
