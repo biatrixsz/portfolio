@@ -1,0 +1,39 @@
+header {
+    padding: 250px;
+}
+
+section h4{
+    padding-block: 10px ;
+}
+
+section h1{
+    padding-block: 10px;
+}
+
+section h3 {
+    padding-block: 10px;
+}
+
+header section button{
+    color: black;
+    margin-block: 20px;
+    padding: 15px 40px;
+}
+
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#col-b img{
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#header {
+    background-color: black;
+}
