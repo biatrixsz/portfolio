@@ -21,20 +21,32 @@ nav img{
     object-fit: cover;
 }
 
-nav img:hover {
-    border-radius: 20px;
-    color: palevioletred;
-    background-color: var(--bg-color);
-}
-
 #nav {
     background-color: var(--menu-color);
 }
 
 #logo {
+    font-size: 40px;
     color: var(--c-color);
+    font-family: "Bitcount Grid Single", system-ui;
 }
 
 ul a:hover {
-    color: var(--bg-color);
+    color: var(--c-color);
+    font-weight: bold;
+}
+
+img[src="assets/linkedinlogo.png"]:hover {
+    transform: scale(1.2);
+    filter: invert(34%) sepia(92%) saturate(2738%) hue-rotate(180deg) brightness(94%) contrast(101%);
+}
+
+img[src="assets/github-mark-white.svg"]:hover {
+    transform: scale(1.2);
+}
+
+img[src="assets/instagramlogo.png"]:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    border-radius: 4px;
 }

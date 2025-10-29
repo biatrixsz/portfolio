@@ -7,10 +7,10 @@
 }
 
 :root {
-    --bg-color: #000000;
+    --bg-color: #0d0d0d;
     --menu-color: #2b2a2a;
     --a-color: #3C3C3C;
-    --b-color: #5E5E5E;
+    --b-color: #141414;
     --c-color: #A2A2A2;
     --d-color: #C3C3C3;
     --font-family: "DM Sans", sans-serif;
@@ -25,4 +25,12 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-col {
+    grid-column: auto;
 }
