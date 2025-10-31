@@ -40,5 +40,5 @@ button:hover {
 
 
 #header {
-    background-color: black;
+    background-color: var(--bg-color);
 }

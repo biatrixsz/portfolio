@@ -1,0 +1,31 @@
+#knowledges {
+   background-color: var(--b-color);
+   padding: 250px;
+}
+
+#knowledges .card{
+   padding: 28px;
+   border-radius: 6px;
+   background-color: var(--bg-color);
+   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.267);
+   text-align: left;
+   transition: 400ms;
+}
+
+#knowledges .card:hover {
+   background: var(--f-color);
+}
+
+#knowledges h1{
+   display: flex;
+   padding-inline: 490px;
+   margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+

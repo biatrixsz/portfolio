@@ -13,12 +13,13 @@
     --b-color: #141414;
     --c-color: #A2A2A2;
     --d-color: #C3C3C3;
+    --e-color: #2C2C2C;
+    --f-color: hsla(0, 0% ,100%, 0.1); 
     --font-family: "DM Sans", sans-serif;
 }
 
 .container {
     padding-inline: 32px;
-    max-width: 1280px;
     margin-inline: auto;
 }
 
@@ -32,5 +33,35 @@ a {
 }
 
 .grid-col {
-    grid-column: auto;
+    grid-auto-flow: column;
 }
+
+.grid-row {
+    grid-auto-flow: row;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    width: 300;
+    height: auto;
+}
+
+
+.card img {
+    width: 100px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-vazio {
+    width: 300;
+    height: auto;
+    padding: 20px;
+}
+

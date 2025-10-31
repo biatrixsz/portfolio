@@ -6,7 +6,13 @@
 #about img{
     width: 400px;
     height: auto;
+    border-radius: 10px;
     object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.2);
 }
 
 #wrapper-2 {
