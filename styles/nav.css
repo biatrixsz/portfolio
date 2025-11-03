@@ -25,13 +25,7 @@ nav img{
     background-color: var(--menu-color);
 }
 
-#logo {
-    font-size: 40px;
-    color: var(--c-color);
-    font-family: "Bitcount Grid Single", system-ui;
-}
-
-ul a:hover {
+nav ul a:hover {
     color: var(--c-color);
     font-weight: bold;
 }

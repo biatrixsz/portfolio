@@ -3,6 +3,12 @@
    padding: 250px;
 }
 
+#knowledges .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
 #knowledges .card{
    padding: 28px;
    border-radius: 6px;
@@ -18,8 +24,8 @@
 
 #knowledges h1{
    display: flex;
-   padding-inline: 490px;
-   margin-bottom: 60px;
+   justify-content: center;
+   margin-bottom: 100px;
 }
 
 

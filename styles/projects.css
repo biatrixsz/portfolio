@@ -4,8 +4,8 @@
 }
 #projects header{
     display: flex;
-    margin-bottom: 60px;
-    padding-inline: 550px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 #projects .card{
@@ -20,9 +20,12 @@
     transition: 400ms;
 }
 
-
 #projects .card:hover {
    background: var(--f-color);
+}
+
+#projects img{
+    border-radius: 10px;
 }
 
 
