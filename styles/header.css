@@ -1,5 +1,6 @@
 #header {
     padding: 250px;
+    background-color: var(--bg-color);
 }
 
 section h4{
@@ -29,16 +30,17 @@ button:hover {
 #wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-#notlogo {
-    width: 600px;
-    height: auto;
-    object-fit: cover;
+#mobile-menu {
+    display: none;
+    cursor: pointer;
 }
 
-
-#header {
-    background-color: var(--bg-color);
+#mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: var(--c-color);
+    margin: 8px;
 }

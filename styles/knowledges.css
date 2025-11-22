@@ -1,6 +1,6 @@
 #knowledges {
    background-color: var(--b-color);
-   padding: 250px;
+   padding: 200px;
 }
 
 #knowledges .container{
@@ -8,6 +8,14 @@
    flex-direction: column;
    justify-content: center;
 }
+
+#wrapper-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
 
 #knowledges .card{
    padding: 28px;
@@ -22,10 +30,9 @@
    background: var(--f-color);
 }
 
-#knowledges h1{
+#knowledges header{
    display: flex;
-   justify-content: center;
-   margin-bottom: 100px;
+   margin: auto;
 }
 
 

@@ -1,29 +1,25 @@
 footer {
     background-color: var(--menu-color);
-    padding: 20px;
+    
 }
 
 #wrapper-6 { 
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
 }
 
-footer .col-a {
+
+#rights {
+    margin: auto;
+}
+
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px
 }
 
-footer .col-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer h3{
-    margin: 0px;
-}
 
 footer ul {
     display: flex;
@@ -36,9 +32,3 @@ footer img{
     object-fit: cover;
 }
 
-#rights {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

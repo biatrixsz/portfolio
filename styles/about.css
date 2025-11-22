@@ -1,6 +1,6 @@
 #about {
     background-color: var(--b-color);
-    padding: 250px;
+    padding: 200px;
 }
 
 #about img{
@@ -18,8 +18,21 @@
 #wrapper-2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-inline: 50px ;
+    gap: 100px;
+    width: auto;
+}
+
+@media (max-width: 999px) {
+
+    #about img{
+    width: 300px;
 }
 
 
+
+    #wrapper-2 {
+    flex-direction: column;
+}
+
+
+}
