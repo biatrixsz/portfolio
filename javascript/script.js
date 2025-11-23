@@ -1,30 +1,26 @@
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
+let mbutton = document.querySelector('#mobileMenu'); 
+let mprincipallist = document.querySelector('#primary-menu')
+let msociallist = document.querySelector('.social-media')
+
+mbutton.addEventListener('click', () => {
+
+  if (!mprincipallist.classList.contains('active'))
+    mprincipallist.classList.add('active'); else {
+    mprincipallist.classList.remove('active')  
   }
-}; 
 
-addClickEvent() {
-    this.mobileMenu.addEventListener("click", () => console.log('oi'));
-    }
-
-   
-init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
-    }
-    return this;
+  if (!msociallist.classList.contains('active'))
+    msociallist.classList.add('active'); else {
+    msociallist.classList.remove('active')  
   }
-}
+  
 
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
+});
+
+
+
+
+
 
 
 
